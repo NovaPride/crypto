@@ -1,0 +1,36 @@
+.discover{
+  min-height: 630;
+  padding: 45px 15px 5px 15px;
+  &_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+  }
+  &_text{
+    color: #fff;
+    margin-top: 60px;
+    &_main{
+      line-height: 76px;
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 70px;
+    }
+    &_descr{
+      margin-top: 30px;
+      line-height: 20px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    &_buttons{
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+    }
+    &_image{
+      margin-top: 0;
+    }
+  }
+}

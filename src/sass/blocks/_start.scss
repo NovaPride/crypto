@@ -1,0 +1,46 @@
+.start{
+  min-height: 515px;
+  padding-top: 150px;
+  &_wrapper{
+    padding: 60px 280px 35px 280px;
+    min-height: 365px;
+    border-radius: 20px;
+    background: rgb(143,144,219);
+    background: linear-gradient(135deg, rgba(143,144,219,1) 0%, rgba(135,207,208,1) 100%);
+  }
+  &_header{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  &_subheader{
+    margin-top: 23px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 57px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: center;
+  }
+  &_btn{
+    display: flex;
+    justify-content: space-around;
+    .btn{
+      width: 320px;
+      margin-top: 20px;
+      background-color:#000;
+      &:hover{
+        background-color: #333;
+      }
+      &:active{
+        background-color: transparent;
+        border-color: $cyan-color;
+        color: $cyan-color;
+      }
+    }
+
+  }
+}

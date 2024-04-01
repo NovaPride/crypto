@@ -1,0 +1,25 @@
+.featured{
+  min-height: 135px;
+  padding: 200px 15px 5px 15px;
+  &_text{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  &_wrapper{
+    padding: 0 60px;
+    min-height: 80px;
+    background-color: rgba(99, 88, 189, .3);;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  &_image{
+    opacity: 1;
+  }
+}

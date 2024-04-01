@@ -1,0 +1,35 @@
+@import "base/variables";
+@import "base/mixins";
+
+*{
+  font-family: "RobotOutfit", sans-serif;
+}
+
+body{
+  background-color: $main-color;
+}
+
+.container{
+  max-width: 1095px;
+  margin: 0 auto;
+}
+
+@import "blocks/buttons";
+@import "blocks/navbar";
+@import "blocks/discover";
+@import "blocks/featured";
+@import "blocks/information";
+@import "blocks/testimonials";
+@import "blocks/start";
+
+
+
+
+
+
+
+
+
+@import "base/media";
+// @import "general";
+// @import "media";

@@ -1,0 +1,32 @@
+.header{
+  min-height: 100px;
+  padding: 65px 15px 5px 15px;
+  &_logo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    &:hover{
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_wrapper{
+    gap: 15px;
+    display: flex;
+    font-size: 20px;
+  }
+  &_link{
+    color: #fff;
+    transition-duration: .4s;
+    &:hover{
+      color: $lavender-color;
+      text-decoration: none;
+    }
+  }
+}
