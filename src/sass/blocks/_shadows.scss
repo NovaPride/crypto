@@ -1,37 +1,43 @@
 .shadows{
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 0;
   .shadow{
     z-index: -1;
     background: none;
     border-radius: 100%;
     position: relative;
+    width: 0;
+    height: 0;
     &_1{
-      opacity: .55;
-      box-shadow: 0px 0px 550px 550px #2A255E;
-      top: -12%;
+      box-shadow: 0px 0px 550px 550px $lavender_dark-color;
+      top: -120px;
       left: 45%;
     }
     &_2{
-      opacity: .40;
-      box-shadow: 0px 0px 400px 400px #7DC2C3;
-      top: 850px;
+      box-shadow: 0px 0px 400px 400px $cyan_dark-color;
+      top: 660px;
       left: 100%;
     }
     &_3{
-      /* Ellipse 1 */
-   
-      width: 755px;
-      height: 767px;
-      left: 553.22px;
-      right: 436.78px;
-      top: 2114.17px;
-      bottom: -1319.17px;
-      transform: rotate(-171.50deg);
-      filter: blur(304px);
-      background: rgba(125, 194, 195, 0.4);
+      box-shadow: 0px 0px 400px 400px $cyan_dark-color;
+      top: 1750px;
+      left: 0;
     }
-
+    &_4{
+      box-shadow: 0px 0px 400px 400px $lavender_dark-color;
+      top: 2700px;
+      left: 72%;
+    }
+    &_5{
+      box-shadow: 0px 0px 230px 230px $cyan_dark-color;
+      top: 3550px;
+      left: 105%;
+    }
+    &_6{
+      box-shadow: 0px 0px 230px 230px $lavender_dark-color;
+      top: 4000px;
+      left: 0;
+    }
   }
 }
