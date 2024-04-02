@@ -1,0 +1,37 @@
+.shadows{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  .shadow{
+    z-index: -1;
+    background: none;
+    border-radius: 100%;
+    position: relative;
+    &_1{
+      opacity: .55;
+      box-shadow: 0px 0px 550px 550px #2A255E;
+      top: -12%;
+      left: 45%;
+    }
+    &_2{
+      opacity: .40;
+      box-shadow: 0px 0px 400px 400px #7DC2C3;
+      top: 850px;
+      left: 100%;
+    }
+    &_3{
+      /* Ellipse 1 */
+   
+      width: 755px;
+      height: 767px;
+      left: 553.22px;
+      right: 436.78px;
+      top: 2114.17px;
+      bottom: -1319.17px;
+      transform: rotate(-171.50deg);
+      filter: blur(304px);
+      background: rgba(125, 194, 195, 0.4);
+    }
+
+  }
+}

@@ -10,9 +10,14 @@ body{
 }
 
 .container{
-  max-width: 1095px;
+  max-width: 1065px;
   margin: 0 auto;
 }
+
+
+
+
+
 
 @import "blocks/buttons";
 @import "blocks/navbar";
@@ -21,8 +26,8 @@ body{
 @import "blocks/information";
 @import "blocks/testimonials";
 @import "blocks/start";
-
-
+@import "blocks/footer";
+@import "blocks/shadows";
 
 
 
