@@ -1,2 +1,2 @@
-const d = '😄';
-console.log(d.length);
+'use strict';
+
